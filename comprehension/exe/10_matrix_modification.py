@@ -19,7 +19,7 @@ while not line == "END":
         if is_valid_coordinates(row, col, size):
             matrix[row][col] += value
         else:
-            print("Invalid coordinates")
+            print("Invalid coordinatess")
     elif command == "Subtract":
         if is_valid_coordinates(row, col, size):
             matrix[row][col] -= value
