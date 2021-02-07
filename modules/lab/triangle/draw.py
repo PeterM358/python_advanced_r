@@ -9,6 +9,3 @@ def draw_triangle(n):
 
     for i in range(n - 1, 0, -1):
         draw_line(i)
-
-
-draw_triangle(3)
