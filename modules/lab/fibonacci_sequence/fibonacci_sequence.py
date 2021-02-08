@@ -16,9 +16,9 @@ def create_sequence(n):
 
 def locate_sequence(x):
     if x in seq:
-        return seq.index(x)
+        return f"The number - {x} is at index {seq.index(x)}"
     else:
-        return None
+        return f"The number {x} is not in the sequence"
 
 # 0 1 2 3 4 5 6 7  8  9
 # 0 1 1 2 3 5 8 13 21 34
